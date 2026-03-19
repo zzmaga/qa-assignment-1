@@ -1,0 +1,14 @@
+{
+  "name": "qa-testing-project",
+  "version": "1.0.0",
+  "description": "Assignment 1: QA Risk Assessment and Environment Setup for a web-based E-commerce application",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}
